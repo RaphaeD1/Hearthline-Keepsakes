@@ -47,3 +47,9 @@ Do not put API keys, supplier passwords, Stripe secrets, customer addresses or p
 - [ ] Publish and test site
 - [ ] Place a test order and verify fulfillment
 - [ ] Add privacy, returns and shipping policies based on actual operations
+
+## Launch work and verification
+
+See [launch handoff](docs/LAUNCH.md), [draft listing copy](docs/LISTINGS.md) and [QA record](docs/QA.md). Open `operations.html` for the public readiness checklist and fee scenario calculator; it is not a real order dashboard.
+
+Run `node --test tests/*.test.cjs` then `node scripts/build.mjs`. Deploy only `dist/`. PR checks cover storage normalization, checkout-link validation, margin arithmetic, catalog assets and page references. A genuine listing also requires `listingVerified: true`; simply setting buyUrl is insufficient. No storefront selection data is passed into marketplace checkout.
