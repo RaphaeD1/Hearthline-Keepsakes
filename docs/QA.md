@@ -16,3 +16,7 @@
 - Contact delivery unavailable until a monitored support destination is authorized.
 - Search Console verification, indexing and analytics integration not connected. No tracking is loaded; no consent banner is required for absent optional tracking.
 - CI and Pages evidence recorded in the PR / final handoff after pushing. A prior main-branch Pages workflow succeeded; that alone does not verify this revision.
+
+## Follow-up contrast check
+
+A targeted computed-color check of visible paragraphs, buttons and headings found low contrast in eyebrow labels, hero notes and step descriptions. Darkened those colors in the follow-up fix. This targeted check does not replace a full accessibility audit.
