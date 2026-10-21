@@ -26,12 +26,16 @@ jobs:
           test -s app.js
           node --check app.js
           node --check products.js
+      - name: Test and build public files
+        run: |
+          node --test tests/*.test.cjs
+          node scripts/build.mjs
       - uses: actions/configure-pages@v5
         with:
           enablement: true
       - uses: actions/upload-pages-artifact@v3
         with:
-          path: .
+          path: dist
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4

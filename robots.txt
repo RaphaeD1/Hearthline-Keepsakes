@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+Disallow: /operations.html
+Sitemap: https://raphaed1.github.io/Hearthline-Keepsakes/sitemap.xml
