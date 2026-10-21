@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#faf5ed">
+<meta name="description" content="Hearthline Keepsakes — thoughtful personalized gifts and warm home accents. Browse gift concepts and personalize your favorites.">
+<title>Hearthline Keepsakes | Made Personal, Kept Forever</title>
+<link rel="stylesheet" href="./styles.css">
+</head><body>
+<a class="skip" href="#catalog">Skip to products</a>
+<div class="announcement">Thoughtful gifts, made personal. &nbsp; <span>Store preview — checkout opening soon</span></div>
+<header class="topbar wrap">
+ <a href="#" class="logo" aria-label="Hearthline Keepsakes home"><span class="logo-mark">H</span><span>HEARTHLINE <small>KEEPSAKES</small></span></a>
+ <nav aria-label="Main navigation"><a href="#catalog">Shop collection</a><a href="#how">How it works</a><a href="#about">Our story</a></nav>
+ <button class="cart-trigger" id="openCart" type="button" aria-label="Open cart">Bag <span id="cartCount">0</span></button>
+</header>
+<main>
+<section class="hero"><div class="wrap hero-grid">
+ <div class="hero-copy"><p class="eyebrow">PERSONALIZED GIFTS & HOME DETAILS</p>
+ <h1>Small moments.<br><em>Lasting meaning.</em></h1>
+ <p>A curated concept collection of gifts designed around the people, places, and little stories that matter to you.</p>
+ <a class="button solid" href="#catalog">Explore the collection <span aria-hidden="true">↗</span></a>
+ <p class="hero-note">A new collection in the making · Sample designs shown</p></div>
+ <div class="hero-art" role="img" aria-label="Illustration of a framed keepsake beside a vase and gift box">
+ <div class="sun"></div><div class="arch"></div><div class="illustration-frame"><span>there's no place<br><em>like ours.</em></span></div><div class="vase"></div><div class="flower"></div><div class="parcel"></div>
+ </div></div></section>
+<section class="intro wrap"><p class="eyebrow">THE HEARTHLINE EDIT</p><h2>Thoughtful by design.</h2>
+<p>Whether you're marking a new home, honoring a favorite person, or celebrating an everyday milestone, the details make it yours.</p></section>
+<section id="catalog" class="catalog wrap" aria-labelledby="catalog-title">
+<div class="section-title"><div><p class="eyebrow">EXPLORE THE COLLECTION</p><h2 id="catalog-title">Find your kind of meaningful.</h2></div><span class="collection-count" id="productCount"></span></div>
+<div class="toolbar"><div class="filters" role="group" aria-label="Filter products">
+<button class="filter active" data-filter="all">All designs</button><button class="filter" data-filter="home">Home</button><button class="filter" data-filter="gifts">Gifts</button><button class="filter" data-filter="paper">Paper goods</button></div>
+<label class="searchbox"><span aria-hidden="true">⌕</span><span class="sr-only">Search products</span><input id="search" placeholder="Search the collection" type="search"></label></div>
+<div class="product-grid" id="products" aria-live="polite"></div>
+</section>
+<section class="how" id="how"><div class="wrap"><p class="eyebrow">A PERSONAL TOUCH</p><h2>Meaningful, made simple.</h2>
+<div class="steps"><div><span>01</span><h3>Choose a design</h3><p>Explore versatile pieces inspired by connection and home.</p></div><div><span>02</span><h3>Make it yours</h3><p>Preview a name, date, or message on selected designs.</p></div><div><span>03</span><h3>Keep the moment</h3><p>Ordering will open once our production partners are ready.</p></div></div></div></section>
+<section id="about" class="about wrap"><div class="about-art"><div class="about-quote">the best things in life<br>feel like <i>home.</i></div></div><div><p class="eyebrow">OUR POINT OF VIEW</p><h2>Not just another gift.</h2><p>Hearthline Keepsakes is being created for the everyday celebrations worth remembering. Our focus is approachable design, personal details, and gifting with intention.</p><a href="#catalog" class="textlink">Explore our designs →</a></div></section>
+</main>
+<footer><div class="wrap footer-grid"><div><div class="footer-brand">HEARTHLINE <span>KEEPSAKES</span></div><p>Made personal. Kept forever.</p></div><div><strong>Explore</strong><a href="#catalog">Collection</a><a href="#how">Personalization</a></div><div><strong>Information</strong><p>Store preview. Checkout, delivery policies and customer support will be published before orders open.</p></div></div><div class="wrap legal">© <span id="year"></span> Hearthline Keepsakes. Original brand concept.</div></footer>
+<div class="modal-backdrop" id="detailBackdrop" hidden><section class="detail-modal" role="dialog" aria-modal="true" aria-labelledby="detailTitle"><button class="close" id="closeDetail" aria-label="Close product details">×</button><div id="detailContent"></div></section></div>
+<div class="modal-backdrop" id="cartBackdrop" hidden><section class="cart-modal" role="dialog" aria-modal="true" aria-labelledby="cartTitle"><div class="cart-head"><h2 id="cartTitle">Your selection</h2><button class="close" id="closeCart" aria-label="Close cart">×</button></div><div id="cartItems"></div><div class="cart-bottom"><p id="cartTotal"></p><button class="button solid full" id="copyCart">Copy order summary</button><p class="tiny">This is a wishlist-style preview. Payment and checkout are not yet available.</p></div></section></div>
+<div id="toast" role="status" aria-live="polite"></div>
+<script src="./products.js"></script><script src="./app.js"></script>
+</body></html>
