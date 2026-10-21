@@ -2,3 +2,5 @@
 :focus-visible{outline:3px solid #375c4a;outline-offset:4px}button{min-height:44px} .info-section{padding-top:40px;padding-bottom:70px;max-width:900px} .info-section h1,.info-section h2{font-family:Georgia,serif}details{border-bottom:1px solid var(--line);padding:18px 0}summary{cursor:pointer;font-weight:600;min-height:28px} .info-section a{text-decoration:underline} .product-art{overflow:hidden} .art-object{overflow-wrap:anywhere} .info-section input{padding:10px;max-width:100%;border:1px solid #62625a} .info-section label{display:block;margin-top:12px} .metric{font-size:1.4rem;font-weight:bold} .announcement span{opacity:1} @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*::before,*::after{animation:none!important;transition:none!important}}
 
 .design-image{width:100%;height:100%;object-fit:contain;display:block;background:#faf7f1}.illustration-label{position:absolute;bottom:8px;left:8px;background:#fffdf9;padding:3px 7px;font-size:10px;color:#34342f}.product-art{position:relative}
+
+.eyebrow{color:#765344}.hero-note{color:#62574e}.steps p,.about p{color:#57564f}
