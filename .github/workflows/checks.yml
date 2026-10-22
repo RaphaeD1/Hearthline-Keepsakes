@@ -22,7 +22,9 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: '22'
-      - run: npm ci --ignore-scripts
+      - name: Install locked test dependencies
+        timeout-minutes: 3
+        run: npm ci --ignore-scripts --no-fund --fetch-retries=1 --fetch-timeout=30000
       - run: npx playwright install --with-deps chromium
       - run: npm run build
       - run: npm run test:browser
