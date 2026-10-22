@@ -53,3 +53,9 @@ After compliant listings and fulfillment are approved, run an organic pilot with
 ## Launch readiness
 
 Software and automated browser checks support readiness, but a transactional launch is blocked until: owner identity/payout verification, monitored support channel, exact supplier variants/quotes, final listing/policy approval, accurate approved mockups, and an explicitly authorized checkout/fulfillment/refund test. No merchant/supplier account is connected in this workspace. No paid services or orders were activated. A supplier account approval is not evidence of customer demand.
+
+## Merchant setup clarification and personalization constraint
+
+Owner clarified that neither an Etsy nor a Printify seller account exists yet. Evaluate Printify Pop-Up first for no-upfront-inventory hosted checkout; do not assume Etsy fees in its margin calculation. Owner must create/authorize the account and complete identity/payout verification directly with the provider. Official setup guide: https://help.printify.com/hc/en-us/articles/12051515136529-How-can-I-create-a-Pop-Up-Store
+
+Important fulfillment fact from the current Pop-Up documentation: ordinary orders can proceed to production after a set time even when approval is set to Manual; automated-personalization orders have a 72-hour review window. This does NOT substantiate our draft proposal of an indefinite hold while awaiting buyer proof approval. Before enabling personalized sales, verify the actual preview/confirmation, approval deadline, cancellation and escalation path in the chosen account. If it cannot honor the approved buyer-proof policy, revise that policy to the verified workflow with owner approval or select a channel/provider that supports the required hold. No automated personalized order release is configured. Source: https://help.printify.com/hc/en-us/articles/12051129478417-What-is-Printify-Pop-Up-Store
