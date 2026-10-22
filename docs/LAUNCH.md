@@ -60,3 +60,5 @@ Run `node --test tests/*.test.cjs`, `node --check app.js`, and `node scripts/bui
 ## Demand-selected pilot update
 
 The active public catalog is now three planned physical prints: family surname, anniversary date and first home. Paper goods and botanical-name art are archived for later testing. See [demand evidence, cost gates and pilot rules](DEMAND-VALIDATION.md). All three prices are marked planned; supplier variants, landed quotes and checkout remain unverified. The operations calculator now includes entered personalization labor; its default assumed scenario yields $5.16, below the proposed $8 launch threshold. Earlier $32/no-labor examples above remain historical scenarios, not current pricing approval.
+
+Printify Pop-Up approval constraint: the current provider documentation describes timed production release even in Manual mode and a 72-hour automated-personalization review window. Do not promise the draft indefinite proof hold on this channel. Verify the account's exact proof/cancellation workflow and align approved buyer policies before accepting orders; see DEMAND-VALIDATION.md.
