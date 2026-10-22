@@ -1,0 +1,44 @@
+[
+  {
+    "id": "gratitude-notes",
+    "name": "Little Things Note Cards",
+    "category": "paper",
+    "type": "Printable stationery concept",
+    "price": 12,
+    "art": "notes",
+    "tag": "Digital concept",
+    "description": "Simple printable cards for thank-yous, sweet reminders, and notes left where they'll be found.",
+    "prompt": "Short heading",
+    "placeholder": "A little note",
+    "preview": "THE LITTLE THINGS",
+    "buyUrl": ""
+  },
+  {
+    "id": "birth-flower",
+    "name": "Bloom & Belong Print",
+    "category": "gifts",
+    "type": "Botanical keepsake",
+    "price": 30,
+    "art": "bloom",
+    "tag": "Gift idea",
+    "description": "An original botanical-inspired design concept with space for a meaningful name.",
+    "prompt": "Name",
+    "placeholder": "Olivia",
+    "preview": "GROW WITH LOVE",
+    "buyUrl": ""
+  },
+  {
+    "id": "daily-ritual",
+    "name": "Slow Morning Planner",
+    "category": "paper",
+    "type": "Printable planner concept",
+    "price": 14,
+    "art": "planner",
+    "tag": "Digital concept",
+    "description": "A peaceful daily-planning concept to organize priorities, notes, and a little room to breathe.",
+    "prompt": "Your planner title",
+    "placeholder": "My everyday",
+    "preview": "A SLOWER KIND OF DAY",
+    "buyUrl": ""
+  }
+]
