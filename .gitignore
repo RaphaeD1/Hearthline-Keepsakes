@@ -1,3 +1,5 @@
 dist/
 .openai/
 node_modules/
+playwright-report/
+test-results/
