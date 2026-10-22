@@ -1,8 +1,7 @@
 name: Storefront checks
 on:
   pull_request:
-  push:
-    branches: [main, 'launch/**']
+  workflow_call:
 permissions:
   contents: read
 jobs:
