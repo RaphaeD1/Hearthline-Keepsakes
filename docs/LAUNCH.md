@@ -31,7 +31,7 @@ Record actual provider ID, blueprint/SKU, size, material, finish, production loc
 
 ## Product files
 
-Six original SVG source designs live in assets/. They are vector illustrations, not finished-product photographs. No external stock artwork or embedded third-party font files. Fonts use local generic fallbacks; outline/rasterize final text after font choice and check exact glyphs, margins and supplier template requirements. The 2400 × 3000 canvas is a 4:5 design basis, not a guarantee of suitability for every size. Export final personalized files at the selected supplier's required resolution/bleed and approve a proof. Social-preview PNG is an original brand graphic. Paper goods remain concepts pending actual printable layouts; do not sell the illustration as a complete planner/card pack.
+Six original SVG source designs live in assets/. They are vector illustrations, not finished-product photographs. No external stock artwork or embedded third-party font files. Fonts use local generic fallbacks; outline/rasterize final text after font choice and check exact glyphs, margins and supplier template requirements. The 2400 × 3000 canvas is a 4:5 design basis, not a guarantee of suitability for every size. Export final personalized files at the selected supplier's required resolution/bleed and approve a proof. Social-preview PNG is an original brand graphic. Paper goods now have original US Letter SVG layouts: a daily planner with writing fields and a four-card sheet with trim guides. Print at 100% / actual size on US Letter; verify physical margins, legibility and trimming before listing. These are source layouts, not yet buyer-tested download packages.
 
 ## Identity and authorization gates
 

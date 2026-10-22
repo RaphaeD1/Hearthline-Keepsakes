@@ -8,8 +8,8 @@ Original designs; no reviews, sales, performance or delivery claims. Add final d
 | Date to remember | Custom anniversary date print, meaningful milestone gift | Date and short dedication; verify date formatting. |
 | First home | Personalized street name print, new home keepsake | Street/place name without requiring a full private address. |
 | Bloom & Belong | Custom name botanical print, thoughtful personalized gift | Original botanical motif and name, not a birth-month flower claim. |
-| Little Things | Printable thank you note cards, minimalist stationery | Draft only; create final multi-card print layout and cutting guidance before selling. |
-| Slow Morning | Printable daily planner, gentle priorities and notes | Draft only; create usable writing fields and tested printable pages before selling. |
+| Little Things | Printable thank you note cards, minimalist stationery | Original US Letter layout: four flat 4 × 5 inch cards, dashed trim guides. Print at 100%; verify an actual-size print before listing. |
+| Slow Morning | Printable daily planner, gentle priorities and notes | Original US Letter page: date, three priorities, daily writing space, notes and gratitude. Verify an actual-size print before listing. |
 
 Suggested description format: “[Design] is an original Hearthline Keepsakes artwork centered on [occasion]. Enter [fields] exactly as you want them printed. Confirm spelling before approving the proof. Includes [verified contents]; excludes [frame/accessories if not included]. Colors may differ by display and printing. See this listing's actual production and shipping estimates.”
 
