@@ -56,3 +56,7 @@ operations.html contains a public readiness checklist and scenario calculator, N
 ## Verification
 
 Run `node --test tests/*.test.cjs`, `node --check app.js`, and `node scripts/build.mjs`. Public deployment publishes only dist/, excluding tests/docs/source-control files. PR checks run on feature branches. Browser QA observations and remaining limitations are recorded in docs/QA.md.
+
+## Demand-selected pilot update
+
+The active public catalog is now three planned physical prints: family surname, anniversary date and first home. Paper goods and botanical-name art are archived for later testing. See [demand evidence, cost gates and pilot rules](DEMAND-VALIDATION.md). All three prices are marked planned; supplier variants, landed quotes and checkout remain unverified. The operations calculator now includes entered personalization labor; its default assumed scenario yields $5.16, below the proposed $8 launch threshold. Earlier $32/no-labor examples above remain historical scenarios, not current pricing approval.

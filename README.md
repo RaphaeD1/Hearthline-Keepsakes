@@ -55,3 +55,5 @@ See [launch handoff](docs/LAUNCH.md), [draft listing copy](docs/LISTINGS.md) and
 Run `node --test tests/*.test.cjs` then `node scripts/build.mjs`. Deploy only `dist/`. PR checks cover storage normalization, checkout-link validation, margin arithmetic, catalog assets and page references. A genuine listing also requires `listingVerified: true`; simply setting buyUrl is insufficient. No storefront selection data is passed into marketplace checkout.
 
 Browser QA: `npm ci`, `npx playwright install --with-deps chromium`, `npm run build`, `npm run test:browser`. CI runs desktop, mobile and 320px acceptance plus axe scans; reports are retained for seven days. These are development-only dependencies and are excluded from the public build.
+
+The current launch pilot contains three demand-selected print concepts. See [demand validation](docs/DEMAND-VALIDATION.md) for buyer evidence, its limits, proposed pricing and exact launch gates. The other three concepts are preserved in `docs/archived-products.json`; their source artwork is retained. Planned prices and candidate formats are not approved offers.

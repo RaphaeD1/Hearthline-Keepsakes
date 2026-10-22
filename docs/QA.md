@@ -26,3 +26,7 @@ A targeted computed-color check of visible paragraphs, buttons and headings foun
 PR #4 adds 18 browser tests across desktop Chromium, Pixel 7 emulation and a narrow 320 × 640 screen. Coverage includes search/filter, literal personalization, persistence/deletion, malformed saved data, keyboard trapping/restoration, overflow, all catalog images, the calculator, and axe WCAG 2 A/AA and 2.1 AA scans of storefront, open dialogs, policies and operations. Reports/traces are retained in CI for seven days. The initial scans identified additional contrast defects in illustration text, step numbers and the product detail category; these were corrected. See PR checks for final run evidence. Automated scans and emulation do not replace screen-reader testing or real-device/print acceptance.
 
 The daily planner and four-card note sheet SVGs were rendered and visually inspected. Physical actual-size printing, buyer download packaging and approved merchant listings remain pending.
+
+## Demand-selected pilot changes
+
+Catalog narrowed to three physical-print candidates. Planned prices are labeled, all supplier variant/quote fields remain null, and checkout remains disabled. The calculator now deducts entered personalization labor. Core tests cover the selected set and labor arithmetic; browser tests are updated for three designs and the $5.16 default assumed contribution. See the demand-selection PR for test/deployment evidence.
